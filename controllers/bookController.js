@@ -68,7 +68,7 @@ exports.book_detail = asyncHandler(async (req, res, next) => {
   });
   
 
-// Display book create form on GET.
+
 // Display book create form on GET.
 exports.book_create_get = asyncHandler(async (req, res, next) => {
     // Get all authors and genres, which we can use for adding to our book.
